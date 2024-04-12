@@ -1,0 +1,115 @@
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .text {
+    width: 80%; /* Justerer bredden efter behov */
+    text-align: left; /* Placering af tekst til venstre */
+  }
+  .box2 {
+    width: 90%;
+    height: 150px;
+    border:none;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Til at skjule eventuelt overskydende indhold */
+  }
+  .box2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Til at skalere billedet, så det passer til boksen uden at miste proportioner */
+    border-radius: 10px;
+  }
+  progress[value] {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 20px;
+    width: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  progress[value]::-webkit-progress-value {
+    background: #D5802D; /* Farven for den fyldte del af progress baren */
+    border-radius: 10px;
+  }
+  progress[value]::-webkit-progress-bar {
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  progress[value]::-moz-progress-bar {
+    background: #D5802D; /* Farven for den fyldte del af progress baren (for Firefox) */
+    border-radius: 10px;
+  }
+  progress[value]::after {
+    content: attr(value) '%'; /* Indsæt procentdelen som indhold */
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translate(-50%, -50%);
+    color: white; /* Farven på teksten */
+    font-weight:bold;
+  }
+  .round-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    overflow: hidden; /* Skjuler eventuelt overskydende indhold */
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    background-color: #fff;
+  }
+  .round-button img {
+    max-width: 40px; 
+    max-height: 40px;
+    width: auto;
+    height: auto;
+  }
+  .popup-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff; /* Hvid baggrund */
+    padding: 20px;
+    border-radius: 10px; /* Runde kanter */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    text-align: center;
+    border: 2px solid #D5802D; /* Tynd orange kant */
+    width: 300px;
+  }
+  .popup-container img {
+    display: block;
+    margin: 0 auto; /* Centreret billede */
+    max-width: 70%;
+    height: 70%;
+    margin-bottom: 10px;
+  }
+  .popup-container h2 {
+    margin-bottom: 10px;
+    color: #000; /* Sort skriftfarve til overskrift */
+  }
+  .popup-container .popup-button {
+    display: inline-block;
+    padding: 10px 20px; /* Lidt mere padding for at gøre knappen større */
+    background-color: #D5802D; /* Orange baggrundsfarve */
+    color: #fff; /* Hvid skriftfarve */
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  .popup-container .popup-button:hover {
+    background-color: #CC6A00; /* Mørkere orange ved hover */
+  }
+  
