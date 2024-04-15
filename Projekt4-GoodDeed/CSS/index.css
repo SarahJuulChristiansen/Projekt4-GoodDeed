@@ -70,42 +70,42 @@
 .item{
     position: absolute;
     width: 170px;
-    height: 230px;
+    height: 200px;
     text-align: justify;
     background-color: #fafafa;
     border-radius: 10px;
     padding: 15px;
     transition: 0.5s;
     left: calc(50% - 110px);
-    top: 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
 }
 
 .item h3 {
     font-size: 23px;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
+    height: 0%;
 }
 
 .item .side-text {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
+
 }
 
-.image-container img {
-    width: 100px;
-    display: flex;
-    justify-content: center;
+.image-container img{
+    width: 70px;
+    height: 70px;
 }
 
-.item .und-text {
+.und-text {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
+}
 
+.und-text img {
+  width: 25px;
 }
 
 .item .mont {
