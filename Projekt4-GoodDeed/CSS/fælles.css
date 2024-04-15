@@ -1,6 +1,7 @@
-# {
+html, body{
     margin: 0;
     scroll-behavior: smooth;
+    margin-bottom: 50px;
   }
 
   .foot {
@@ -38,7 +39,7 @@
     color: #fff;
     font-size: 30px;
     margin-bottom: 100px;
-    font-family: acumin-pro-extra-condensed, sans-serif;
+    z-index: 100;
   }
   .burger-menu {
     float: right;
