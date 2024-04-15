@@ -55,6 +55,7 @@
     transform: translate(-50%, -50%);
     color: white; /* Farven på teksten */
     font-weight:bold;
+    font-size: 12px;
   }
   .round-button {
     display: flex;
@@ -121,12 +122,22 @@
   }
 
   progress[value] {
-    height: 8px; /* Juster højden for smartphones */
+    height: 10px; /* Juster højden for smartphones */
     width: 80%;
   }
 
   .text {
     width: 90%; /* Juster bredden af tekst til smartphones */
+  }
+
+  progress[value]::after {
+    font-size: 12px;
+  }
+
+  .round-button {
+    width: 50px; 
+    height: 50px; 
+    bottom: 70px;
   }
 }
 
@@ -137,13 +148,22 @@
   }
 
   progress[value] {
-    height: 15px; /* Juster højden for iPads */
+    height: 20px; /* Juster højden for iPads */
     width: 80%;
   }
 
   .text {
     width: 90%; /* Juster bredden af tekst til smartphones */
     font-size: large;
+  }
+
+  progress[value]::after {
+    font-size: 15px;
+  }
+  .round-button {
+    width: 60px; 
+    height: 60px; 
+    bottom: 90px;
   }
 
 }
@@ -155,13 +175,23 @@
   }
 
   progress[value] {
-    height: 20px; /* Standardhøjde for computerskærme */
+    height: 25px; /* Standardhøjde for computerskærme */
     width: 80%;
   }
 
   .text {
     width: 90%; /* Juster bredden af tekst til smartphones */
     font-size: x-large;
+  }
+
+  progress[value]::after {
+    font-size: 18px;
+  }
+
+  .round-button {
+    width: 90px; 
+    height: 90px; 
+    bottom: 100px;
   }
 }
   
