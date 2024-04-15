@@ -28,10 +28,12 @@
     </header>
 
     <main>
-        <div class="circle">
-            <a href="profil.html"><img src="images/luna.png" alt="Billede"></a>
+        <div class="circlebox">
+            <div class="circle">
+                <a href="profil.html"><img src="images/luna.png" alt="Billede"></a>
+            </div>
         </div>
-        
+
         <br>
 
         <div class="scoreboard">
@@ -57,44 +59,58 @@
             <p>Udfordringer</p>
         </div>
 
-
-        <div class="scroll-menu" id="scroll-menu">
-            <div class="box">
+    
+        <div class="slider">
+            <div class="item">
                 <h3 class="title">Motion</h3>
                 <p class="side-text">Få kroppen i bevægelse</p>
                 <div class="image-container">
                     <img src="images/gronrun.png" alt="løbende mand">
                 </div>
-                <p>Optjen points: 10</p>
+                <div class="und-text">
+                    <p>Optjen points: 10</p>
+                    <div><img class="mont" src="images/mont-lille.png" alt=""></div>
+                </div>
             </div>
-            <div class="box">
+    
+            <div class="item">
                 <h3 class="title">Del del del</h3>
                 <p class="side-text">Del budskabet ud</p>
                 <div class="image-container">
                     <img src="images/del.png" alt="del ikon">
                 </div>
-                <p>Optjen points: 10</p>
+                <div class="und-text">
+                    <p>Optjen points: 10</p>
+                    <div><img class="mont" src="images/mont-lille.png" alt=""></div>
+                </div>
             </div>
-            <div class="box">
+            <div class="item">
                 <h3 class="title">PlastAway</h3>
                 <p class="side-text">Samle plastik for naturen</p>
                 <div class="image-container">
-                    <img src="images/malskive.png" alt="dartskive">
+                    <div><img src="images/malskive.png" alt="dartskive"></div>
                 </div>
-                <p>Optjen points: 10</p>
+                <div class="und-text">
+                    <p>Optjen points: 10</p>
+                    <div><img class="mont" src="images/mont-lille.png" alt=""></div>
+                </div>
             </div>
-            <div class="box">
+    
+            <div class="item">
                 <h3 class="title">Donation</h3>
                 <p class="side-text">Donering til velgørenhed</p>
                 <div class="image-container">
                     <img src="images/charityg.png" alt="donering">
                 </div>
-                <div>
+                <div class="und-text">
                     <p>Optjen points: 10</p>
-                    <div> <img src="images/mont-lille.png" alt=""></div>
+                    <div> <img class="mont" src="images/mont-lille.png" alt=""></div>
                 </div>
             </div>
+            <button id="next">></button>
+            <button id="prev"><</button>
         </div>
+        
 
         <div class="txt-box1">
             <h3>Se hvor tæt vi er på vores mål</h3>
@@ -112,6 +128,6 @@
             <a href="indexx.html"><img src="images/home.png" alt="Hjem"></a>
         </div>
     </footer>
-
+    <script src="JavaScript/slide.js"></script>
     <script src="JavaScript/burgermenu.js"></script>
 </html>
