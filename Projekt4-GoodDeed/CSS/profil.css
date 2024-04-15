@@ -12,6 +12,7 @@
     align-items: center;
     flex-direction: column; /* Juster indholdets retning til kolonne */
     text-align: center; /* Centrer indholdet */
+    margin-top: 50px;
   }
   .profile-details {
     margin-top: 10px; /* Afstand mellem profilbillede og profiloplysninger */
@@ -190,18 +191,215 @@
     margin: auto; 
   }
 
+
+
    /* Media query til smartphones */
 @media only screen and (max-width: 600px) {
+  .trophy-title h1 {
+    font-size: 36px;
+  }
+  
+  .trofae-container {
+    height: 60px;
+    width: 100%;
+  }
+
+  .trofae-ikon {
+    width: 50px; /* Juster størrelsen efter behov */
+    height: auto;
+  }
+
+  .trofae-titel {
+    font-size: 18px;
+  }
+
+  .trofae-beskrivelse {
+    font-size: 14px;
+  }
+
+  .fremskridtslinje-container {
+    height: 15px;
+  }
+
+  .fremskridtslinje {
+    height: 15px;
+  }
+
+  .streaks-table th,
+  .streaks-table td {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+
+  .streaks-text {
+    font-size: 14px;
+  }
+
+  .streak-image {
+    width: 100px; /* Juster størrelsen efter behov */
+    height: auto; /* Auto-højde for at bevare billedets proportioner */
+  }
+  .streaks-box h2 {
+    font-size: 50px;
+    margin: auto;
+  }
+
+  .valuta-container {
+    height:15px;
+    width: 70px;
+  }
+  .valuta-container img {
+    width: 20px; /* Billedets bredde */
+  }
+  .valuta-container .mønt-tæller {
+    font-size: 18px;
+  }
+
+ 
+  
+  
  
 }
 
 /* Media query til iPads */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .trophy-title h1 {
+    font-size: 46px;
+  }
+
+  .trofae-container {
+    height: 90px;
+    width: 100%;
+  }
+
+  .trofae-ikon {
+    width: 70px; /* Juster størrelsen efter behov */
+    height: auto;
+  }
+
+  .trofae-titel {
+    font-size: 22px;
+  }
+
+  .trofae-beskrivelse {
+    font-size: 18px;
+  }
+
+  .fremskridtslinje-container {
+    height: 18px;
+  }
+
+  .fremskridtslinje {
+    height: 18px;
+  }
+
+  .streaks-table th,
+  .streaks-table td {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+  }
+
+  .streaks-text {
+    font-size: 18px;
+  }
+
+  .streak-image {
+    width: 120px; /* Juster størrelsen efter behov */
+    height: auto; /* Auto-højde for at bevare billedets proportioner */
+  }
+  .streaks-box h2 {
+    font-size: 50px;
+    margin: auto;
+  }
+
+  .streak-image {
+    width: 120px; /* Juster størrelsen efter behov */
+    height: auto; /* Auto-højde for at bevare billedets proportioner */
+  }
+  .streaks-box h2 {
+    font-size: 60px;
+    margin: auto;
+  }
+
+  .valuta-container {
+    height:20px;
+    width: 75px;
+  }
+  .valuta-container img {
+    width: 25px; /* Billedets bredde */
+  }
+  .valuta-container .mønt-tæller {
+    font-size: 22px;
+  }
+  
 
 }
 
 /* Media query til computerskærme */
 @media only screen and (min-width: 1025px) {
+  .trophy-title h1 {
+    font-size: 56px;
+  }
+
+  .trofae-container {
+    height: 100px;
+    width: 100%;
+  }
+
+  .trofae-ikon {
+    width: 80px; /* Juster størrelsen efter behov */
+    height: auto;
+  }
+
+  .trofae-titel {
+    font-size: 26px;
+  }
+
+  .trofae-beskrivelse {
+    font-size: 22px;
+  }
+
+  .fremskridtslinje-container {
+    height: 20px;
+  }
+
+  .fremskridtslinje {
+    height: 20px;
+  }
+
+  .streaks-table th,
+  .streaks-table td {
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+  }
+
+  .streaks-text {
+    font-size: 22px;
+  }
+
+  .streak-image {
+    width: 140px; /* Juster størrelsen efter behov */
+    height: auto; /* Auto-højde for at bevare billedets proportioner */
+  }
+  .streaks-box h2 {
+    font-size: 70px;
+    margin: auto;
+  }
+
+  .valuta-container {
+    height:25px;
+    width: 90px;
+  }
+  .valuta-container img {
+    width: 30px; /* Billedets bredde */
+  }
+  .valuta-container .mønt-tæller {
+    font-size: 26px;
+  }
+  
   
 }
 

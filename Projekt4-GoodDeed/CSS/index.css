@@ -6,7 +6,7 @@
 
 .circle {
   padding-top: 20px;
-  margin-top: 3rem;
+  margin-top: 100px;
 
 }
 .circle img {
@@ -142,6 +142,7 @@
   margin-left: 7rem;
   margin-right: 7rem;
   padding: 10px;
+  margin-bottom: 20px;
 }
 .knap{
   font-size: 20px;
@@ -153,3 +154,173 @@
   color: #D5802D;
 }
 
+
+
+   /* Media query til smartphones */
+   @media only screen and (max-width: 600px) {
+    .scoreboard {
+      height: 20px;
+    }
+
+    .sc-ramme {
+      width: 250px;
+      height: 50px;
+    }
+
+    .score1 img {
+      width: 32px;
+      height: 35px;
+    }
+
+    .score1 p {
+      font-size: 38px;
+    }
+
+    .udfordringtitel {
+      height: 60px;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    .slider{
+      height: 240px;
+    }
+
+    .item{
+      width: 170px;
+      height: 200px;
+    }
+  
+    .item h3 {
+      font-size: 23px;
+    }
+  
+    .item .side-text {
+      font-size: 15px;
+    }
+
+    .und-text {
+      font-size: 15px;
+    }
+  
+    .und-text img {
+    width: 25px;
+    }
+  
+    .item .mont {
+      width: 25px;
+    }
+  }
+
+   
+   /* Media query til iPads */
+   @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .scoreboard {
+      height: 40px;
+    }
+
+    .sc-ramme {
+      width: 300px;
+      height: 70px;
+    }
+
+    .score1 img {
+      width: 37px;
+      height: 40px;
+    }
+
+    .score1 p {
+      font-size: 40px;
+    }
+
+    .udfordringtitel {
+      height: 70px;
+      font-size: 40px;
+      margin-bottom: 40px;
+    }
+
+    .slider{
+      height: 300px;
+    }
+    
+    .item{
+      width: 200px;
+      height: 230px;
+    }
+  
+    .item h3 {
+      font-size: 28px;
+    }
+  
+    .item .side-text {
+      font-size: 18px;
+    }
+
+    .und-text {
+      font-size: 18px;
+    }
+  
+    .und-text img {
+    width: 30px;
+    }
+  
+    .item .mont {
+      width: 30px;
+    }
+  }
+   
+   /* Media query til computerskærme */
+   @media only screen and (min-width: 1025px) {
+    .scoreboard {
+      height: 60px;
+    }
+
+    .sc-ramme {
+      width: 350px;
+      height: 90px;
+    }
+
+    .score1 img {
+      width: 40px;
+      height: 43px;
+    }
+
+    .score1 p {
+      font-size: 42px;
+    }
+
+    .udfordringtitel {
+      height: 80px;
+      font-size: 50px;
+      margin-bottom: 60px;
+    }
+
+    .slider{
+      height: 340px;
+    }
+
+    .item{
+      width: 230px;
+      height: 300px;
+    }
+  
+    .item h3 {
+      font-size: 33px;
+    }
+  
+    .item .side-text {
+      font-size: 22px;
+    }
+
+    .und-text {
+      font-size: 22px;
+    }
+  
+    .und-text img {
+    width: 35px;
+    }
+  
+    .item .mont {
+      width: 35px;
+    }  
+  }
