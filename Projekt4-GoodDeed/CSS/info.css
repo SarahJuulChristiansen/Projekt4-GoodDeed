@@ -112,4 +112,56 @@
   .popup-container .popup-button:hover {
     background-color: #CC6A00; /* Mørkere orange ved hover */
   }
+
+
+  /* Media query til smartphones */
+@media only screen and (max-width: 600px) {
+  .box2 {
+    height: 100px; /* Juster højden for smartphones */
+  }
+
+  progress[value] {
+    height: 8px; /* Juster højden for smartphones */
+    width: 80%;
+  }
+
+  .text {
+    width: 90%; /* Juster bredden af tekst til smartphones */
+  }
+}
+
+/* Media query til iPads */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .box2 {
+    height: 150px; /* Juster højden for iPads */
+  }
+
+  progress[value] {
+    height: 15px; /* Juster højden for iPads */
+    width: 80%;
+  }
+
+  .text {
+    width: 90%; /* Juster bredden af tekst til smartphones */
+    font-size: large;
+  }
+
+}
+
+/* Media query til computerskærme */
+@media only screen and (min-width: 1025px) {
+  .box2 {
+    height: 200px; /* Standardhøjde for computerskærme */
+  }
+
+  progress[value] {
+    height: 20px; /* Standardhøjde for computerskærme */
+    width: 80%;
+  }
+
+  .text {
+    width: 90%; /* Juster bredden af tekst til smartphones */
+    font-size: x-large;
+  }
+}
   

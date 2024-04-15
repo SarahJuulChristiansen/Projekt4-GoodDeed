@@ -103,7 +103,6 @@
     align-items: center;
     border-radius: 5px;
     text-align: left;
-   
   }
   
   .dropbtn::after {
@@ -138,7 +137,9 @@
     font-size: 12px;
   }
   
-  .dropdown-content a:hover {color: #D5802D;}
+  .dropdown-content a:hover {
+    color: #D5802D;
+  }
   
   
   .dropdown:hover .dropbtn {
@@ -197,12 +198,6 @@
     height: 250px; 
     margin-left: 5px;
     border-radius: 5px;
-  }
-  
-  .tekst-donation {
-    margin-top: 100px;
-    margin-left: 5px;
-    font-size: 15px;
   }
 
   .scroll-container-shop {
@@ -318,3 +313,274 @@
     margin-left: 1px;
     object-fit: cover; 
   } 
+
+
+
+
+
+     /* Media query til smartphones */
+@media only screen and (max-width: 600px) {
+  .dropbtn {
+    width: 300px; 
+    height: 8px;
+  }
+
+  .kategori {
+    margin-right: 230px;
+    font-size: 15px;
+  }
+
+  .dropbtn::after {
+    margin-left: 235px; 
+  }
+
+  .mulighed {
+    margin-right: 235px;
+    font-size: 12px;
+  }
+
+  .dropdown-content {
+    min-width: 300px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+  }
+
+  .dropdown-content a {
+    font-size: 12px;
+  }
+
+  .saldo {
+    font-size: 12px;
+  }
+
+  .saldopoint img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .point {
+    font-size: 12px;
+  }
+
+  .image-container-shop {
+    width: 40px; 
+    height: 25px; 
+  }
+
+  .image-container-shop img{
+    width: 18px;
+    height: 18px;
+  }
+
+  .point-text { 
+    font-size: 8px;
+  }
+
+  .icon {
+    width: 40px;
+    height: 30px;
+  }
+  
+  .ordretekst{
+    font-size: 12px;
+  }
+  
+  .farvortitekst{
+    font-size: 12px;
+  }
+
+  .title-shop {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  
+  .side-text-shop {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .rounded-box {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+
+
+/* Media query til iPads */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .dropbtn {
+    width: 500px; 
+    height: 12px;
+  }
+
+  .kategori {
+    margin-right: 400px;
+    font-size: 20px;
+  }
+
+  .dropbtn::after {
+    margin-left: 430px; 
+  }
+
+  .mulighed {
+    margin-right: 390px;
+    font-size: 18px;
+  }
+
+  .dropdown-content {
+    width: 500px;
+  }
+  
+  .dropdown-content a {
+    font-size: 18px;
+  }
+
+  .saldo {
+    font-size: 18px;
+  }
+
+  .saldopoint img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .point {
+    font-size: 18px;
+  }
+  .image-container-shop {
+    width: 55px; 
+    height: 35px; 
+  }
+
+  .image-container-shop img{
+    width: 25px;
+    height: 25px;
+  }
+
+  .point-text { 
+    font-size: 10px;
+  }
+
+  .icon {
+    width: 45px;
+    height: 35px;
+  }
+  
+  .ordretekst{
+    font-size: 18px;
+  }
+  
+  .farvortitekst{
+    font-size: 18px;
+  }
+
+  .title-shop {
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  
+  .side-text-shop {
+    font-size: 15px;
+    margin-left: 15px;
+  }
+
+  .rounded-box {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+
+
+/* Media query til computerskærme */
+@media only screen and (min-width: 1025px) {
+  .dropbtn {
+    width: 800px; 
+    height: 20px;
+  }
+
+  .kategori {
+    margin-right: 650px;
+    font-size: 30px;
+  }
+
+  .dropbtn::after {
+    margin-left: 730px; 
+  }
+
+  .mulighed {
+    margin-right: 650px;
+    font-size: 22px;
+  }
+
+  .dropdown-content {
+    width: 800px;
+  }
+
+  .dropdown-content a {
+    font-size: 22px;
+  }
+
+  .saldo {
+    font-size: 22px;
+  }
+
+  .saldopoint img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .point {
+    font-size: 22px;
+  }
+
+  .image-container-shop {
+    width: 70px; 
+    height: 40px; 
+  }
+
+  .image-container-shop img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .point-text { 
+    font-size: 15px;
+  }
+
+  .icon {
+    width: 50px;
+    height: 40px;
+  }
+  
+  .ordretekst{
+    font-size: 22px;
+  }
+  
+  .farvortitekst{
+    font-size: 22px;
+  }
+
+  .title-shop {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  
+  .side-text-shop {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  .rounded-box {
+    width: 60px;
+    height: 60px;
+  }
+}
+ 
