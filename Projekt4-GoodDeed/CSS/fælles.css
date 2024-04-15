@@ -43,6 +43,7 @@ html, body{
     font-size: 30px;
     margin-bottom: 100px;
     z-index: 100;
+    font-family: acumin-pro-extra-condensed, sans-serif;
   }
   .burger-menu {
     float: right;
