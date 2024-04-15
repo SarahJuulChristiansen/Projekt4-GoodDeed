@@ -2,6 +2,7 @@ html, body{
     margin: 0;
     scroll-behavior: smooth;
     margin-bottom: 50px;
+    font-family: Acumin-Pro-ExtraCondensed, sans-serif;
   }
 
   .foot {
