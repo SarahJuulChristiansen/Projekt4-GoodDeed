@@ -73,7 +73,6 @@
     height: 230px;
     text-align: justify;
     background-color: #fafafa;
-    
     border-radius: 10px;
     padding: 15px;
     transition: 0.5s;
@@ -140,8 +139,8 @@
   text-align: center;
   border: 2px solid #D5802D;
   border-radius: 7px;
-  margin-left: 6rem;
-  margin-right: 6rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
   padding: 10px;
 }
 .knap{
