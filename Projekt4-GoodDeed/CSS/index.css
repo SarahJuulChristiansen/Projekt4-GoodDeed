@@ -66,6 +66,7 @@
     position: relative;
     width: 100%;
     height: 240px;
+    overflow: hidden;
 }
 .item{
     position: absolute;
@@ -121,11 +122,11 @@
     font-size: xxx-large;
     font-family: monospace;
     font-weight: bold;
-    left: 400px;
+    left: 50px;
 }
 #next{
     left: unset;
-    right: 400px;
+    right: 50px;
 }
 
                                                               /*tekst og knap*/
