@@ -1,7 +1,7 @@
 
         document.addEventListener("DOMContentLoaded", function () {
             // Array med menuvalg
-            const menuItems = ['Profil','Shop','Info','Log ud'];
+            const menuItems = ['Log ud'];
     
             const burgerMenu = document.querySelector('.burger-menu');
             const menu = document.querySelector('.menu');
