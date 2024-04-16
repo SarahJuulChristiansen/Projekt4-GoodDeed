@@ -117,13 +117,14 @@
     position: absolute;
     top: 40%;
     color: #000000;
-    background-color: transparent;
     border: none;
     font-size: xxx-large;
     font-family: monospace;
     font-weight: bold;
     left: 10px;
+    background-color: transparent;
 }
+
 #next{
     left: unset;
     right: 10px;
@@ -135,7 +136,9 @@
   height: 60px;
   text-align: center;
   font-family: Acumin-Pro-Extra-Condensed, sans-serif;
+  justify-content: center;
 }
+
 .container {
   text-align: center;
   border: 2px solid #D5802D;
