@@ -116,17 +116,17 @@
 #next, #prev{
     position: absolute;
     top: 40%;
-    color: rgb(0, 0, 0)000;
+    color: #000000;
     background-color: transparent;
     border: none;
     font-size: xxx-large;
     font-family: monospace;
     font-weight: bold;
-    left: 50px;
+    left: 10px;
 }
 #next{
     left: unset;
-    right: 50px;
+    right: 10px;
 }
 
                                                               /*tekst og knap*/
