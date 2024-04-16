@@ -139,6 +139,25 @@
     height: 50px; 
     bottom: 70px;
   }
+
+  .popup-container {
+    height: 150px;
+    width: 150px;
+  }
+  .popup-container img {
+    max-width: 70%;
+    height: 70%;
+  }
+
+  .popup-container h2 {
+    font-size: 12px;
+  }
+
+  .popup-container .popup-button {
+    height: 8px;
+    width: 35px;
+    font-size: 10px;
+  }
 }
 
 /* Media query til iPads */
@@ -164,6 +183,15 @@
     width: 60px; 
     height: 60px; 
     bottom: 90px;
+  }
+
+  .popup-container {
+    height: 300px;
+    width: 300px;
+  }
+  .popup-container img {
+    max-width: 70%;
+    height: 70%;
   }
 
 }
@@ -192,6 +220,21 @@
     width: 90px; 
     height: 90px; 
     bottom: 100px;
+  }
+
+  .popup-container {
+    height: 400px;
+    width: 400px;
+  }
+  .popup-container img {
+    max-width: 70%;
+    height: 70%;
+  }
+
+  .popup-container .popup-button {
+    height: 25px;
+    width: 85px;
+    font-size: 20px;
   }
 }
   
